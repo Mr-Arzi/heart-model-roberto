@@ -29,5 +29,5 @@ jobs:
       run: python model/train.py
       
     - name: list model
-      run: ls - la model
+      run: ls -la model
 
