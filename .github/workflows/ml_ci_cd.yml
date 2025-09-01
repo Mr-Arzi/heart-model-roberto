@@ -18,13 +18,9 @@ jobs:
     - name: Set up python
       uses: actions/setup-python@v4
       with: 
-        python-version: ${{matrix.python-versoio}}
+        python-version: ${{matrix.python-version}}
     - name: list
       run: python --version
 
-
-      
-   # - name: python version
-    #  run: python --version
     - name: pip install
       run: pip install -r requirements.txt
